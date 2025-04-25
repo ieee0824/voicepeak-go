@@ -16,7 +16,7 @@ func New() *Client {
 
 	switch runtime.GOOS {
 	case "windows":
-		voicepeakPath = "/Applications/voicepeak.app/Contents/MacOS/voicepeak"
+		panic("Not implemented")
 	case "darwin":
 		voicepeakPath = "/Applications/voicepeak.app/Contents/MacOS/voicepeak"
 	case "linux":
