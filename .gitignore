@@ -26,3 +26,4 @@ go.work.sum
 
 # debug cmd
 cmd
+.wav
